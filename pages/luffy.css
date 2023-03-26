@@ -1,0 +1,40 @@
+*{
+    overflow-y: hidden;
+}
+a{
+    color: white;
+}
+.descricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    background-color: var(--luffy-color);
+    width: 60vw;
+    border-radius: 40px;
+    color: white;
+    padding: 0px 100px;
+    margin-top: 150px;
+}
+.descricao img{
+    height:50vh;
+    
+}
+.desc-text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+footer{
+    margin-top: 5.7%;
+    bottom: 100;
+    color: white;
+    background-color: #212121;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
