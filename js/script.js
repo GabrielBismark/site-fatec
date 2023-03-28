@@ -2,6 +2,8 @@ const cardDesc = document.querySelectorAll('.descricao');
 const cards =  document.querySelectorAll('.card');
 const crose = document.querySelectorAll('.close');
 
+const burger = document.querySelector('.burger')
+
 function cardAtivo(index) {
     cardDesc.forEach((card) => {
         card.classList.remove('ativo');
@@ -39,4 +41,8 @@ darkMode.addEventListener('click', ()=>{
         darkMode.innerHTML = '🌓';
     }
 });
-console.log(darkMode.classList.contains('ativo'));
+
+burger.addEventListener('click', () =>{
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('ativo')
+})
